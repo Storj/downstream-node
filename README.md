@@ -455,7 +455,7 @@ Optionally, one may sort in ascending order by `id`, `address`, `uptime`, `heart
 
     GET /api/downstream/status/list/by/<sortby>
 
-or in descending order
+or in descending order.
 
     GET /api/downstream/status/list/by/d/<sortby>
 
@@ -463,7 +463,7 @@ It is also possible to limit the number of responses
 
     GET /api/downstream/status/list/by/<sortby>/<limit>
 
-and specify a page number
+and specify a page number.
 
     GET /api/downstream/status/list/by/<sortby>/<limit>/<page>
 
